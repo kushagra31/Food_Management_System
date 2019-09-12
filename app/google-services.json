@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "432242119071",
+    "firebase_url": "https://symbibro.firebaseio.com",
+    "project_id": "symbibro",
+    "storage_bucket": "symbibro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432242119071:android:f56e70e0b2c9c35a",
+        "android_client_info": {
+          "package_name": "com.example.symbibro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432242119071-hovvo40aufotfi0vn55sbtrtl528iori.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.symbibro",
+            "certificate_hash": "acc2b7bab420cc61a42396793ff4e22593137fba"
+          }
+        },
+        {
+          "client_id": "432242119071-8e5gk8i7erlcp19cip0lhj3qcbvq5jaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvXw0NsndW2-0Lla5X5YaGoRjfzDOcTXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432242119071-8e5gk8i7erlcp19cip0lhj3qcbvq5jaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
