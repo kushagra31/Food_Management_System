@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mAuth=FirebaseAuth.getInstance();
         if (mAuth.getCurrentUser() != null && mAuth.getCurrentUser().isEmailVerified()){
             finish();
-            startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
+            startActivity(new Intent(getApplicationContext(),Profileactivity2Activity.class));
 
         }
         email =(EditText) findViewById(R.id.email);
@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 if(task.isSuccessful()){
                     if(mAuth.getCurrentUser().isEmailVerified()){
                         finish();
-                        startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
+                        startActivity(new Intent(getApplicationContext(),Profileactivity2Activity.class));
                     }
                     else{
                         Toast.makeText(LoginActivity.this,"Verify email Address",Toast.LENGTH_SHORT).show();
