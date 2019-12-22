@@ -26,6 +26,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private RecyclerView recyclerView;
     FirebaseDatabase database ;
     DatabaseReference myRef ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +54,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         button2= (Button) findViewById(R.id.button2);
         button2.setOnClickListener(this);
     }
+
     private void showData(DataSnapshot dataSnapshot) {
         for(DataSnapshot ds :dataSnapshot.getChildren()){
 
@@ -67,4 +69,5 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         }
 
     }
+
 }

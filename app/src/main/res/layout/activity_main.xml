@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -19,6 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="User Registration"
+            android:textColor="#FCFFFFFF"
             android:textSize="36sp" />
 
         <EditText
@@ -27,7 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:autofillHints="Enter Your Email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF" />
 
         <EditText
             android:id="@+id/password"
@@ -35,7 +38,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:autofillHints="Enter Your Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/button"
@@ -48,7 +52,8 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Click here to signin" />
+            android:text="Click here to signin"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </RelativeLayout>

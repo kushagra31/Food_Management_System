@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">symbibro</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_Menu">Menu</string>
+    <string name="title_Wallet">Wallet</string>
+    <string name="title_User">User</string>
     <string name="title_activity_profileactivity2">String</string>
+    <string name="title_activity_cart">Cart</string>
 
 </resources>
